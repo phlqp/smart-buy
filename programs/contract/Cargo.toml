@@ -1,0 +1,25 @@
+[package]
+name = "Smart Trade"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = { version="0.26.0" }
+anchor-spl = { version="0.26.0" }
+openbook_dex = { version="0.5.6", default-features=false, features = ["no-entrypoint", "program"]}
+phoenix-v1 = { version="0.2.4", default-features=false, features = ["no-entrypoint", "cpi", "no-idl", "no-log-ix-name"] }
+solana-program = "=1.14.9"
+lib-sokoban = "=0.3.0"
+bytemuck = { version = "1.13.0" }
+winnow = "=0.4.1"
+toml_datetime = "=0.6.1"

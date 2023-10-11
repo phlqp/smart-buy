@@ -1,0 +1,11 @@
+[features]
+seeds = false
+skip-lint = false
+#[programs.localnet]
+[programs.devnet]
+contract = "tenPjQFBLyLo1tYBNRcy3NgUSwNBaH4s37wtfH8eX3m"
+
+[provider]
+#cluster = "localnet"
+cluster = "devnet"
+wallet = "tenPjQFBLyLo1tYBNRcy3NgUSwNBaH4s37wtfH8eX3m.json"
