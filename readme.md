@@ -11,4 +11,10 @@ When you need to execute buy or sell orders, determining the best price becomes 
 ## How this works?
 With Smart Trade, it allows you to buy or sell at the most favorable price at the time you place the order by comparing OpenBook and Phoenix. It will choose the exchange with the best price to execute the order.
 
+## How to use?
+Smart Trade is highly suitable for building bots that perform automated trading.
 
+## Donate
+Feel free to donate in any way you want, if you want to support this project.
+
+Solana address: `tenPjQFBLyLo1tYBNRcy3NgUSwNBaH4s37wtfH8eX3m`
